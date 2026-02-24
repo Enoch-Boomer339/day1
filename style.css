@@ -1,0 +1,15 @@
+#first{
+    text-align: center;
+}
+
+#forgot{
+    text-align: right;
+}
+
+#second{
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
