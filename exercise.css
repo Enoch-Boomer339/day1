@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(196, 121, 196);
+    margin: 60px;
+    padding: 10px;
+}
+
+.maindiv {
+    background-color: white;
+    min-height: 100vh;
+    min-width: 40%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 190px;
+}
+
+#Schedulebtn {
+    color: white;
+    background-color: purple;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+#getintouchbtn {
+    background-color: purple;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 3px;
+
+}
+
+#digital {
+    color: purple;
+}
+
+img{
+    width: 200px;
+    height: 120px;
+}
+
+.paragraph-ScheduleACall{
+    margin-bottom: 10px;
+}
+
+#par{}

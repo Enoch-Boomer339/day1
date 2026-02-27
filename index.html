@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome Home</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #2b2bff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      display: flex;
+      width: 820px;
+      height: 520px;
+      background: #fff;
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+
+    .left {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 50px 45px;
+    }
+
+    .left .icon {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .left h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #111;
+      margin-bottom: 6px;
+    }
+
+    .left p {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 30px;
+    }
+
+    .input-box {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ddd;
+      border-radius: 30px;
+      padding: 11px 16px;
+      margin-bottom: 14px;
+      background: #fafafa;
+    }
+
+    .input-box input {
+      border: none;
+      outline: none;
+      background: transparent;
+      flex: 1;
+      font-size: 13px;
+      color: #333;
+    }
+
+    .input-box span {
+      font-size: 15px;
+      color: #aaa;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .row label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: #555;
+    }
+
+    .row a {
+      font-size: 12px;
+      color: #555;
+      text-decoration: none;
+    }
+
+    .btn-login {
+      width: 100%;
+      padding: 13px;
+      background: #2b2bff;
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .btn-login:hover {
+      background: #1a1ae0;
+    }
+
+    .divider {
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
+      margin: 16px 0;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+    }
+
+    .social-btn {
+      width: 42px;
+      height: 42px;
+      border: 1px solid #ddd;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      background: #fff;
+      font-size: 18px;
+    }
+
+    .social-btn:hover {
+      background: #f0f0f0;
+    }
+
+    .right {
+      width: 320px;
+      border-radius: 22px;
+      margin: 12px;
+      background: linear-gradient(160deg, #6a5aff 0%, #2b2bff 30%, #1a0080 60%, #0d006b 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .blob1 {
+      position: absolute;
+      width: 280px;
+      height: 280px;
+      background: radial-gradient(circle, rgba(150,130,255,0.6) 0%, transparent 70%);
+      top: -60px;
+      right: -60px;
+      border-radius: 50%;
+    }
+
+    .blob2 {
+      position: absolute;
+      width: 320px;
+      height: 320px;
+      background: radial-gradient(circle, rgba(80,60,200,0.7) 0%, transparent 70%);
+      bottom: -80px;
+      left: -60px;
+      border-radius: 50%;
+    }
+
+    .blob3 {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background: radial-gradient(circle, rgba(180,160,255,0.4) 0%, transparent 70%);
+      top: 40%;
+      left: 20%;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="left">
+      <div class="icon">🏠</div>
+      <h1>Welcome home</h1>
+      <p>Please enter your details.</p>
+
+      <div class="input-box">
+        <input type="email" placeholder="Email">
+        <span>✉</span>
+      </div>
+
+      <div class="input-box">
+        <input type="password" placeholder="Password">
+        <span>👁</span>
+      </div>
+
+      <div class="row">
+        <label>
+          <input type="checkbox"> Remember for 30 days
+        </label>
+        <a href="#">Forgot password?</a>
+      </div>
+
+      <button class="btn-login">Login</button>
+
+      <div class="divider">or</div>
+
+      <div class="socials">
+        <div class="social-btn">🍎</div>
+        <div class="social-btn">G</div>
+        <div class="social-btn">f</div>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="blob1"></div>
+      <div class="blob2"></div>
+      <div class="blob3"></div>
+    </div>
+  </div>
+
+</body>
+</html>

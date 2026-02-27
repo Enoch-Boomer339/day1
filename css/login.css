@@ -1,0 +1,39 @@
+body{}
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.left-side {
+    background-image: url("../picsForday1/matt-richmond-zpH73jIi-1c-unsplash.jpg");
+    flex: 0.5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 600px;
+}
+
+.right-side{
+    flex: 0,5;
+    height: 600px;
+    width: 600px;
+    background-color: darkgrey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+}
+
+.login-form{
+    text-align: center;
+}

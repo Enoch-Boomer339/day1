@@ -3,30 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Login paage</title>
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-    <div id="first">
-        
-        <h1>Login</h1>
-        <div id="second">
+    <div class="container">
+        <div class="left-side"><h1>Welcome to Nucleus</h1></div>
+
+        <div class="login-header"></div>
+        <div class="right-side"><h1>Welcome back to Nucleus</h1>
+            <p>Build your design system effortlessly with our powerful component library.</p>
+
+            <div class="login-form">
             <form action="">
-                <label for="title">Name: </label>
-                <input type="text" id="name" value="Your name">
-                <br>
-                <br>
+                <label for="email">Email: </label><br>
+                <input type="text" required><br><br>
 
-                <label for="title">Password: </label>
-                <input type="password" id="pass" value="+23478987740987">
-                <br>
-                
-                <p id="forgot">forgot password?</p>
+                <label for="email">Password: </label><br>
+                <input type="password" required><br><br>
+                <p>Forgotten password?</p>
+                <div>
+                <p>Remember Sign In details</p>
+                </div>
+                <button type="submit">Log in</button>
 
-                <button type="submit" id="btn">Login</button>
-            </form>
+                <div class="or">
+                    <p>or</p>
+                    <div class="google">
+                        <button>Continue with Google</button>
+                    </div>
+                    <p>Don't have an account? Sign up</p>
+                </div>
         </div>
-    
-    </div>j
+        
+        </div>
+        </div>
+
+        
+    </div>
 </body>
 </html>
